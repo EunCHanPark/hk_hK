@@ -6,5 +6,10 @@
 </head>
 <body>
     <h1> Members </h1>
+{% for m in members %}
+    <hr/>
+    <h2>{{m.name}}</h2>
+    <h3>{{m.email}}</h3>
+{% endfor %}
 </body>
 </html>
